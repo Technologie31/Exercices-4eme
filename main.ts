@@ -1,4 +1,4 @@
-basic.showIcon(IconNames.Heart)
+basic.showIcon(IconNames.Yes)
 basic.forever(function () {
     if (pins.digitalReadPin(DigitalPin.P0) == 1) {
         basic.showLeds(`
